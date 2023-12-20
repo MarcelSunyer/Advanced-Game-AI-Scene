@@ -2727,6 +2727,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6439998312801165430, guid: 030a8d8e5b05e1147923361dfeb4cedc, type: 3}
+--- !u!1 &259595488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+  m_PrefabInstance: {fileID: 2015128683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &259595489
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259595488}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1bfa637abf1212842bd641f7019e2850, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &273480651
 GameObject:
   m_ObjectHideFlags: 0
@@ -5931,79 +5957,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.001890068, y: 0.0018900689, z: 0.0062767593}
   m_Center: {x: 0.00003214819, y: -0.0000000026109013, z: 0.003138379}
---- !u!1001 &706958907
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5.107282
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5.107282
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.107282
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -159.74
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.14
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 53.24
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.97148126
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.23711635
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -27.433
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
-      propertyPath: m_Name
-      value: Pescar
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
 --- !u!64 &709744078
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20350,6 +20303,82 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8361319127862552227, guid: 030a8d8e5b05e1147923361dfeb4cedc, type: 3}
+--- !u!1001 &2015128683
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.3777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.3777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.3777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -156.58939
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 54.17577
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9619141
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.27335173
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -31.728
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      propertyPath: m_Name
+      value: Pescar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 259595489}
+  m_SourcePrefab: {fileID: 100100000, guid: 398ee43546bf3e643be5663aac57d0d6, type: 3}
 --- !u!64 &2018174040
 MeshCollider:
   m_ObjectHideFlags: 0
