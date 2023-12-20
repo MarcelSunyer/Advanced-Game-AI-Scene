@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine;
 using Pada1.BBCore;
 using Pada1.BBCore.Tasks;
 using Pada1.BBCore.Framework;
@@ -30,4 +29,3 @@ public class HideBB : BasePrimitiveAction
         }
     }
 }
-

@@ -105,21 +105,26 @@ public class ThiefStateManager : MonoBehaviour
         Vector3 chosenSpot = Vector3.zero;
         Vector3 chosenDir = Vector3.zero;
         GameObject chosenGO = hidingSpots[0];
-
-        for (int i = 0; i < hidingSpots.Length-15; i++)
+        if (policeTarget != null)
         {
-            Vector3 hideDir = hidingSpots[i].transform.position - policeTarget.transform.position;
-            Vector3 hidePos = hidingSpots[i].transform.position + hideDir.normalized * 100;
-
-            if (Vector3.Distance(policeTarget.transform.position, hidePos) < dist)
+            if (hidingSpots != null && hidingSpots.Length > 0)
             {
-                chosenSpot = hidePos;
-                chosenDir = hideDir;
-                chosenGO = hidingSpots[i];
-                dist = Vector3.Distance(this.transform.position, hidePos);
-            }
-        }
+                for (int i = 0; i < hidingSpots.Length - 15; i++)
+                {
+                    Vector3 hideDir = hidingSpots[i].transform.position - policeTarget.transform.position;
+                    Vector3 hidePos = hidingSpots[i].transform.position + hideDir.normalized * 100;
 
+                    if (Vector3.Distance(policeTarget.transform.position, hidePos) < dist)
+                    {
+                        chosenSpot = hidePos;
+                        chosenDir = hideDir;
+                        chosenGO = hidingSpots[i];
+                        dist = Vector3.Distance(this.transform.position, hidePos);
+                    }
+                }
+            }
+
+        }
         Collider hideCol = chosenGO.GetComponent<Collider>();
         Ray backRay = new Ray(chosenSpot, -chosenDir.normalized);
         RaycastHit info;
@@ -128,6 +133,7 @@ public class ThiefStateManager : MonoBehaviour
 
         hidePositionGO.transform.position = info.point + chosenDir.normalized;
         return hidePositionGO.transform;
+        
     }
 
     void GoToRandomPosition()
