@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Walkeable
+  - cop
+  - Cop
   layers:
   - Default
   - TransparentFX
