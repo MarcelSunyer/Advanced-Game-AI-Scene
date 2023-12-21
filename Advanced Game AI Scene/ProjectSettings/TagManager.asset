@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Cop
   - Hide
+  - Treasure
   layers:
   - Default
   - TransparentFX

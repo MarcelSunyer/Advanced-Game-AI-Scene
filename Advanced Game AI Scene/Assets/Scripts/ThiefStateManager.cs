@@ -18,14 +18,21 @@ public class ThiefStateManager : MonoBehaviour
     public Transform itemPosition;
     public float hideSearchRadius = 10f;
     public float stealDistance = 1f;
+    public Collider camaraCollider;
 
     public GameObject destruir;
     public bool hasStolenItem = false;
     public GameObject policeTarget;
+    public Camera police_camera;
     public Collider floor;
     GameObject[] hidingSpots;
     private Transform hidePosition;
     private GameObject hidePositionGO;
+
+   
+
+    bool cameraLooking;
+    float dotProductResult;
 
     void Start()
     {
@@ -97,6 +104,7 @@ public class ThiefStateManager : MonoBehaviour
 
                 break;
         }
+
     }
 
     public Transform FindHidePosition()
@@ -129,6 +137,7 @@ public class ThiefStateManager : MonoBehaviour
         Ray backRay = new Ray(chosenSpot, -chosenDir.normalized);
         RaycastHit info;
         float distance = 250.0f;
+        backRay.direction.Normalize();
         hideCol.Raycast(backRay, out info, distance);
 
         hidePositionGO.transform.position = info.point + chosenDir.normalized;
@@ -144,4 +153,5 @@ public class ThiefStateManager : MonoBehaviour
 
         agent.SetDestination(randomPosition);
     }
+  
 }
