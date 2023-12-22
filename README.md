@@ -26,3 +26,7 @@ This repository houses a project dedicated to creating a dynamic and free scene 
 | Fisherman | Bats Flocking |
 |----------|----------|
 | <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/14367a86-78c9-42eb-9c18-e8f744ae8696"> | <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/f14ca87a-86b8-4dd1-9f38-2699c3fea995"> |
+
+| Villagers Wander | Skeleton Roller Ball |
+|----------|----------|
+| <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/2f536dcd-1090-4e24-8fbd-7f9c069fa05f"> | <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/35c90406-4888-4d1d-8c92-dc43fbef3d95"> |
