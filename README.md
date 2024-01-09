@@ -30,3 +30,9 @@ This repository houses a project dedicated to creating a dynamic and free scene 
 | Villagers Wander | Skeleton Reinforced Learning |
 |----------|----------|
 | <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/2f536dcd-1090-4e24-8fbd-7f9c069fa05f"> | <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/35c90406-4888-4d1d-8c92-dc43fbef3d95"> |
+
+## Technical Information
+|  BB Editor | |
+|----------|----------|
+| <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/b80b60fd-6cd9-4140-83c2-8e90891d356c"> | <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/d66f7b7f-c59c-4bf6-9ecc-46b2a22bd8a5"> |
+
