@@ -36,3 +36,8 @@ This repository houses a project dedicated to creating a dynamic and free scene 
 |----------|----------|
 | <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/b80b60fd-6cd9-4140-83c2-8e90891d356c"> | <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/d66f7b7f-c59c-4bf6-9ecc-46b2a22bd8a5"> |
 
+|  ML Agents | |
+|----------|----------|
+| <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/aa368963-b2e6-4fd4-9d6f-448f92b86678"> | <img src="https://github.com/MarcelSunyer/Advanced-Game-AI-Scene/assets/99949465/a632694c-0525-4b40-8e7f-7e9df7ebcacd"> |
+
+
