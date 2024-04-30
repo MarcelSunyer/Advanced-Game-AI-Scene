@@ -22,9 +22,8 @@ public class MoveBehaviour : GenericBehaviour
 	void Start()
 	{
 		// Set up the references.
-		jumpBool = Animator.StringToHash("Jump");
-		groundedBool = Animator.StringToHash("Grounded");
-		behaviourManager.GetAnim.SetBool(groundedBool, true);
+		
+		//behaviourManager.GetAnim.SetBool(groundedBool, true);
 
 		// Subscribe and register this behaviour as the default behaviour.
 		behaviourManager.SubscribeBehaviour(this);
@@ -167,23 +166,5 @@ public class MoveBehaviour : GenericBehaviour
 		}
 
 		return targetDirection;
-	}
-
-	// Collision detection.
-	private void OnCollisionStay(Collision collision)
-	{
-		isColliding = true;
-		// Slide on vertical obstacles
-		if (behaviourManager.IsCurrentBehaviour(this.GetBehaviourCode()) && collision.GetContact(0).normal.y <= 0.1f)
-		{
-			GetComponent<CapsuleCollider>().material.dynamicFriction = 0f;
-			GetComponent<CapsuleCollider>().material.staticFriction = 0f;
-		}
-	}
-	private void OnCollisionExit(Collision collision)
-	{
-		isColliding = false;
-		GetComponent<CapsuleCollider>().material.dynamicFriction = 0.6f;
-		GetComponent<CapsuleCollider>().material.staticFriction = 0.6f;
 	}
 }
