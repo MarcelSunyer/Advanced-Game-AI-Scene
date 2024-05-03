@@ -44,11 +44,11 @@ public class PlayerSound_Footsteps : MonoBehaviour
                 {
                     return FSMaterial.Stone;
                 }
-                else if (surfaceMaterial.name.Contains("Wood"))
+                else if (surfaceMaterial.name.Contains("texMadera4") || surfaceMaterial.name.Contains("Wood"))
                 {
                     return FSMaterial.Wood;
                 }
-                else if (surfaceMaterial.name.Contains("Concrete"))
+                else if (surfaceMaterial.name.Contains("Material.005") || surfaceMaterial.name.Contains("Concrete"))
                 {
                     return FSMaterial.Concrete;
                 }
@@ -66,7 +66,7 @@ public class PlayerSound_Footsteps : MonoBehaviour
         return FSMaterial.Empty;
     }
 
-    void PlayFootstep()
+    void PlayFootsteps()
     {
         AudioClip clip = null;
 
@@ -93,10 +93,12 @@ public class PlayerSound_Footsteps : MonoBehaviour
                 break;
         }
 
+        Debug.Log("Surface: " + surface);
+
         if (surface != FSMaterial.Empty)
         {
             source.clip = clip;
-            source.volume = Random.Range(0.02f, 0.05f);
+            source.volume = Random.Range(0.8f, 1.0f);
             source.pitch = Random.Range(0.8f, 1.2f);
             source.Play();
         }
