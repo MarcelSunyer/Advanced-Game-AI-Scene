@@ -52,7 +52,6 @@ public class BasicBehaviour : MonoBehaviour
 		anim = GetComponent<Animator> ();
 		hFloat = Animator.StringToHash("H");
 		vFloat = Animator.StringToHash("V");
-		camScript = playerCamera.GetComponent<ThirdPersonOrbitCamBasic> ();
 		rBody = GetComponent<Rigidbody> ();
 
 		// Grounded verification variables.
